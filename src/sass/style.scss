@@ -1,0 +1,41 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/fonts";
+@import "base/vars";
+@import "base/animation";
+
+* {
+	font-family: 'MuseoSansCyrl', sans-serif;
+}
+
+input {
+	outline: none;
+}
+
+button:active, button:focus {
+	outline: none;
+}
+
+.container {
+	position: relative;
+	max-width: 1141px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/titles";
+@import "blocks/footer";
+@import "base/media";
