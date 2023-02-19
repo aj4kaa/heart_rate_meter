@@ -27,3 +27,40 @@
 	font-weight: 700;
 	font-style: normal;
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?va1586');
+  src:  url('../fonts/icomoon.eot?va1586#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?va1586') format('truetype'),
+    url('../fonts/icomoon.woff?va1586') format('woff'),
+    url('../fonts/icomoon.svg?va1586#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram-svgrepo-com:before {
+  content: "\e900";
+}
+.icon-pinterest-svgrepo-com:before {
+  content: "\e901";
+}
+.icon-facebook-svgrepo-com:before {
+  content: "\e902";
+}

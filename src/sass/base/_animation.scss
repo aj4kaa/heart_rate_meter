@@ -1,12 +1,19 @@
 .fade {
-	animation-name: fade;
-	animation-duration: 2s;
+	animation: fadeInFromNone 3s ease-in-out;
 }
-@keyframes fade {
-	from {
-		opacity: 0.1;
-	}
-	to {
-		opacity: 1;
-	}
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
 }
