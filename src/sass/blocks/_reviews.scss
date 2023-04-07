@@ -2,6 +2,7 @@
   min-height: 1000px;
   padding: 50px 0 21px 0;
   &__items {
+    overflow: hidden;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -9,10 +10,16 @@
     align-items: center;
   }
   &__item {
+    padding: 0 3px;
+    transition: 2s ease;
+    transform: translateX(-103%);
     margin: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    &:nth-child(2) {
+      transform: translateX(103%);
+    }
   }
   &__img {
     width: 169px;

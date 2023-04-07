@@ -9,6 +9,12 @@
   }
   &__item {
     width: 242px;
+    &:nth-child(2) img {
+      animation: heartbeat 2s ease infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
   }
   &__img {
     img {
